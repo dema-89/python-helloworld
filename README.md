@@ -1,2 +1,2 @@
 # python-helloworld
-repo di esercitazione v1.0
+repo di esercitazione v1.1
