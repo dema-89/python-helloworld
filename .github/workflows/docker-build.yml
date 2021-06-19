@@ -29,6 +29,8 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
+          file: ./Dockerfile
+          platforms: linux/amd64
           push: true
           tags: a1lf0ns0/python-helloworld:latest
       -
